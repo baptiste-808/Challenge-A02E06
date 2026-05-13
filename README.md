@@ -10,8 +10,8 @@ Sauvegardez les données d’une clé USB, puis tentez de :
 On ouvre l'invite de commande en administrateur et on ouvre `Diskpart`.  
 On détermine d'abord le format de la table de partition de notre clée USB, pour ça on fait un `list disk`.  
 
-![La clé USB est en GPT](LISTDISK1.png "La clé USB est en GPT")
-On voit ici que le disque 1 qui est notre clé UCB est en GPT à l'étoile en bout de ligne.
+![La clé USB est en GPT](LISTDISK1.png "La clé USB est en GPT")  
+On voit ici que le disque 1 qui est notre clé USB est en GPT à l'étoile en bout de ligne.
 
 on va faire la suite de commades suivante :  
 `sel disk 1` : on selectionne le disque 1 ;  
